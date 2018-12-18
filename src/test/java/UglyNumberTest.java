@@ -10,6 +10,7 @@ public class UglyNumberTest {
         assertTrue(UglyNumber.isUgly(6));
         assertTrue(UglyNumber.isUgly(8));
         assertFalse(UglyNumber.isUgly(14));
+        assertTrue(UglyNumber.isUgly(10));
         assertTrue(UglyNumber.isUgly(1));
     }
 }
